@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hw-html-03</title>
+    <style>
+   body {
+    padding: 30px;
+   }
+  </style>
+  </head>
+  <body bgcolor="LightCyan">
+      <table border="0" cellpadding="7" cellspacing="2">
+<tr>
+  <td colspan="4" bgcolor="CadetBlue"  align="center"><font color="white">Партнери</font></td>
+</tr>
+<tr bgcolor="DarkTurquoise">
+  <td align="center" width="15%">Ім'я'</td><td align="center" width="20%">Прізвище</td><td align="center" width="20%">Номер телефону</td><td align="center" width="25%">Email</td>
+</tr>
+<tr bgcolor="Aquamarine">
+  <td>Світлана</td><td>Весельчук</td><td>+385012345612</td><td>svitvesel@gmail.com</td>
+</tr>
+<tr bgcolor="Aquamarine">
+  <td>Василь</td><td>Шевченко</td><td>+380324754786</td><td>v.shevchenko@gmail.com</td>
+</tr>
+<tr bgcolor="Aquamarine">
+  <td>Роберт</td><td>Штепсельман</td><td>+972514800248</td><td>robert-isr@gmail.com</td>
+</tr>
+<tr bgcolor="Aquamarine">
+  <td>Тетяна</td><td>Світлакова</td><td>+389645754670</td><td>tanya.svitla@yahoo.com</td>
+</tr>
+    </table>
+<form>
+  <h3><font color="SteelBlue">Введіть своє ім'я:</font></h3>
+  <input type="text" name="name" placeholder="Ваше ім'я">
+  <h3><font color="SteelBlue">Введіть своє прізвище:</font></h3>
+  <input type="text" name="surname" placeholder="Ваше прізвище">
+  <h3><font color="SteelBlue">Яка Ваша стать?</font></h3>
+  <p><input type="radio" name="sex" value="Man" checked>Чоловіча</p>
+  <p><input type="radio" name="sex" value="Woman">Жіноча</p>
+  <h3><font color="SteelBlue">Введіть своє питання:</font></h3>
+  <p><textarea rows="6" cols="25" name="question" placeholder="Ваше питання"></textarea></p>
+  <h3><font color="SteelBlue">Виберіть місто:</font></h3>
+  <select name="city">
+	   <option disabled selected>Ваше місто</option>
+	    <option>Київ</option>
+	     <option>Львів</option>
+	      <option>Трускавець</option>
+  </select>
+  <h3><font color="SteelBlue">Виберіть мову:</font></h3>
+  <p><input type="checkbox" name="lang" value="ukr"> Українська</p>
+  <p><input type="checkbox" name="lang" value="rus"> Русский</p>
+  <p><input type="checkbox" name="lang" value="en"> English</p>
+  <p><input type="submit" value="Відправити"></p>
+</form>
+  </body>
+</html>
